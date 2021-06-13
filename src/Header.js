@@ -4,6 +4,7 @@ import SearchIcon from "@material-ui/icons/Search";
 import RoomIcon from "@material-ui/icons/Room";
 import ShoppingBasketSharpIcon from '@material-ui/icons/ShoppingBasketSharp';function Header() {
   return (
+    
     <div className="header">
       <img
         className="header_logo"
@@ -47,8 +48,14 @@ import ShoppingBasketSharpIcon from '@material-ui/icons/ShoppingBasketSharp';fun
             <ShoppingBasketSharpIcon />
             <span className="header_optionLineTwo header_basketCount">0</span>
         </div>
-      </div>
+
+        
     </div>
+    </div>
+      
+
+
+    
   );
   
 }
